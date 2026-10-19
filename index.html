@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Awesome Decomp Games: decompiled, recompiled & reverse-engineered games</title>
-<meta name="description" content="A rated, searchable list of game decompilations, static recompilations, source ports, engine remakes and browser ports.">
+<title>Awesome Decomp Games（中文版）：反编译、重编译与逆向工程游戏</title>
+<meta name="description" content="带评分、可搜索的游戏反编译、静态重编译、源代码移植、引擎重制与浏览器移植列表。">
 <style>
 :root{--bg:#0e1116;--panel:#161b22;--line:#2a313c;--fg:#e6edf3;--mut:#8b949e;--acc:#58a6ff;--good:#3fb950;--warn:#d29922}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -40,74 +40,74 @@ footer{color:var(--mut);font-size:13px;max-width:1300px;margin:auto;padding:20px
 </head>
 <body>
 <header>
-<h1>🕹️ Awesome Decomp Games</h1>
-<p id="stats">Loading…</p>
-<p><a href="https://github.com/SubmitGame/awesome-decomp-games">GitHub repo</a> · <a href="data/games.json">games.json</a> · <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/main/CONTRIBUTING.md">Add a project</a></p>
+<h1>🕹️ Awesome Decomp Games（中文版）</h1>
+<p id="stats">加载中…</p>
+<p><a href="https://github.com/bayshier/awesome-decomp-games-zh">GitHub 仓库</a> · <a href="data/games.json">games.json</a> · <a href="https://github.com/bayshier/awesome-decomp-games-zh/blob/main/CONTRIBUTING.md">收录新项目</a> · <a href="https://github.com/SubmitGame/awesome-decomp-games">上游原仓库</a></p>
 </header>
 <main>
-<div class="legal">This site only links to open-source projects and their pages. It does not host or link to ROMs, ISOs or game assets. Most projects need files from a copy of the game you own. All trademarks belong to their owners.</div>
-<h2 id="play">▶ Play in your browser <span class="meta" id="bcount"></span></h2>
-<p class="meta">Launch straight from a tab. Links are re-checked daily in a real browser, and taken-down ones are hidden. Some need files from your own copy. Never install launchers or extensions a site pushes.</p>
+<div class="legal">本站只链接开源项目及其项目页面，不托管、也不链接 ROM、ISO 或游戏资源。多数项目需要你自备正版游戏的文件。所有商标归其各自所有者所有。</div>
+<h2 id="play">▶ 在浏览器中游玩 <span class="meta" id="bcount"></span></h2>
+<p class="meta">直接在标签页中启动。链接每天在真实浏览器里复核，已下线的会被隐藏。部分游戏需要自备游戏文件。切勿安装网站向你推销的启动器或扩展。</p>
 <div class="picks" id="browser"></div>
-<h2>⭐ Top playable picks</h2>
+<h2>⭐ 热门可玩推荐</h2>
 <div class="picks" id="picks"></div>
-<h2>All projects</h2>
+<h2>全部项目</h2>
 <div class="tabs" id="tabs"></div>
 <div class="controls">
-<input id="q" type="search" placeholder="Search game, platform, repo…" aria-label="Search">
-<select id="plat" aria-label="Platform"><option value="">All platforms</option></select>
-<select id="sort" aria-label="Sort"><option value="score">Best score</option><option value="stars">Most stars</option><option value="recent">Recently updated</option><option value="progress">Decomp progress</option><option value="name">Name</option></select>
-<label class="meta"><input type="checkbox" id="playable"> playable now</label>
+<input id="q" type="search" placeholder="搜索游戏、平台、仓库…" aria-label="搜索">
+<select id="plat" aria-label="平台"><option value="">全部平台</option></select>
+<select id="sort" aria-label="排序"><option value="score">评分最高</option><option value="stars">星标最多</option><option value="recent">最近更新</option><option value="progress">反编译进度</option><option value="name">名称</option></select>
+<label class="meta"><input type="checkbox" id="playable"> 现在可玩</label>
 <span class="meta" id="count"></span>
 </div>
-<table><thead><tr><th>Game</th><th>Type</th><th>Platform</th><th class="n">Score</th><th class="n hide-m">⭐</th><th class="hide-m">Last commit</th><th class="hide-m">Progress</th><th>Links</th></tr></thead><tbody id="rows"></tbody></table>
-<button id="more" hidden>Show more</button>
-<h2 id="mods">🧩 Mods &amp; mashups <span class="meta" id="mcount"></span></h2>
-<p class="meta">Released mods and crossovers built on decomps, libsm64 and reverse-engineered rewrites (25+ stars). Separate from the lists above. Curated from <a href="https://github.com/bailo167/awesome-game-mashups">awesome-game-mashups</a> (CC0). Bring your own game copies.</p>
+<table><thead><tr><th>游戏</th><th>类型</th><th>平台</th><th class="n">评分</th><th class="n hide-m">⭐</th><th class="hide-m">最近提交</th><th class="hide-m">进度</th><th>链接</th></tr></thead><tbody id="rows"></tbody></table>
+<button id="more" hidden>显示更多</button>
+<h2 id="mods">🧩 Mod 与混搭作品 <span class="meta" id="mcount"></span></h2>
+<p class="meta">基于反编译项目、libsm64 与逆向工程重写的已发布 mod 与联名混搭作品（25+ 星）。独立于上方列表之外，精选自 <a href="https://github.com/bailo167/awesome-game-mashups">awesome-game-mashups</a>（CC0）。需自备相关游戏。</p>
 <div id="modlist"></div>
-<details id="oldsec"><summary><h2 style="display:inline">🕰️ Inactive / unmaintained <span class="meta" id="ocount"></span></h2></summary>
+<details id="oldsec"><summary><h2 style="display:inline">🕰️ 已停止维护 <span class="meta" id="ocount"></span></h2></summary>
 <p class="meta" id="onote"></p>
-<table><thead><tr><th>Game</th><th>Type</th><th>Platform</th><th class="n">Score</th><th class="n hide-m">⭐</th><th class="hide-m">Last commit</th><th class="hide-m">Progress</th><th>Links</th></tr></thead><tbody id="orows"></tbody></table>
+<table><thead><tr><th>游戏</th><th>类型</th><th>平台</th><th class="n">评分</th><th class="n hide-m">⭐</th><th class="hide-m">最近提交</th><th class="hide-m">进度</th><th>链接</th></tr></thead><tbody id="orows"></tbody></table>
 </details>
 </main>
-<footer>Generated from <a href="data/games.json">data/games.json</a>. List data CC0, code MIT. Ratings are automatic: playability, completeness, activity and popularity (1-5 each).</footer>
+<footer>由 <a href="data/games.json">data/games.json</a> 自动生成。列表数据 CC0，代码 MIT。评分为自动计算：可玩性、完成度、活跃度与人气（各 1-5 分）。</footer>
 <script>
 const $=s=>document.querySelector(s);let D,topic="",limit=150;
 const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=n=>n==null?"":n>=1000?(n/1000).toFixed(1)+"k":n;
 const safe=u=>/^https?:\/\//.test(u||"")?u:"#";
-function links(e){const l=[];if(e.play_url)l.push(`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">play</a>`);if(e.release_url)l.push(`<a href="${esc(safe(e.release_url))}" target="_blank" rel="noopener">release</a>`);if(e.decompdev_url)l.push(`<a href="${esc(safe(e.decompdev_url))}" target="_blank" rel="noopener">progress</a>`);if(e.video)l.push(`<a href="${esc(safe(e.video))}" target="_blank" rel="noopener">video</a>`);if(e.reddit_post)l.push(`<a href="${esc(safe(e.reddit_post))}" target="_blank" rel="noopener" title="${esc(e.reddit_user||"")} · ${e.reddit_upvotes||0} upvotes · ${e.reddit_comments||0} comments">reddit</a>`);return l.join(" ")}
+function links(e){const l=[];if(e.play_url)l.push(`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">试玩</a>`);if(e.release_url)l.push(`<a href="${esc(safe(e.release_url))}" target="_blank" rel="noopener">发布页</a>`);if(e.decompdev_url)l.push(`<a href="${esc(safe(e.decompdev_url))}" target="_blank" rel="noopener">进度</a>`);if(e.video)l.push(`<a href="${esc(safe(e.video))}" target="_blank" rel="noopener">视频</a>`);if(e.reddit_post)l.push(`<a href="${esc(safe(e.reddit_post))}" target="_blank" rel="noopener" title="${esc(e.reddit_user||"")} · ${e.reddit_upvotes||0} 赞 · ${e.reddit_comments||0} 评论">reddit</a>`);return l.join(" ")}
 function tname(t){return D.topics[t]?D.topics[t].name:t}
-function row(e){return `<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.ai_flag?" ⚠️":""}${e.archived?" 🗄️":""}${e.old&&!e.inactive?' <span title="no commits in 2+ years">🕰️</span>':""}<small>${esc(e.description||"").slice(0,140)}</small></td><td><span class="tag">${esc(tname(e.type))}</span></td><td>${esc(e.platform)}</td><td class="n score" title="play ${e.ratings.playability} · completeness ${e.ratings.completeness} · activity ${e.ratings.activity} · popularity ${e.ratings.popularity}">${e.score.toFixed(1)}</td><td class="n hide-m">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td><td class="hide-m">${e.progress!=null?`<span class="bar"><i style="width:${Math.min(100,e.progress)}%"></i></span> ${e.progress.toFixed(0)}%`:""}</td><td>${links(e)}</td></tr>`}
+function row(e){return `<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.ai_flag?" ⚠️":""}${e.archived?" 🗄️":""}${e.old&&!e.inactive?' <span title="两年以上无提交">🕰️</span>':""}<small>${esc(e.description||"").slice(0,140)}</small></td><td><span class="tag">${esc(tname(e.type))}</span></td><td>${esc(e.platform)}</td><td class="n score" title="可玩性 ${e.ratings.playability} · 完成度 ${e.ratings.completeness} · 活跃度 ${e.ratings.activity} · 人气 ${e.ratings.popularity}">${e.score.toFixed(1)}</td><td class="n hide-m">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td><td class="hide-m">${e.progress!=null?`<span class="bar"><i style="width:${Math.min(100,e.progress)}%"></i></span> ${e.progress.toFixed(0)}%`:""}</td><td>${links(e)}</td></tr>`}
 function render(){
  const q=$("#q").value.trim().toLowerCase(),p=$("#plat").value,pl=$("#playable").checked,s=$("#sort").value;
  let L=D.games.filter(e=>!e.inactive&&(!topic||e.type===topic)&&(!p||e.platform===p)&&(!pl||e.ratings.playability>=4)&&(!q||(e.title+" "+e.platform+" "+(e.repo||"")+" "+(e.description||"")).toLowerCase().includes(q)));
  const k={score:e=>-e.score,stars:e=>-(e.stars||0),recent:e=>-(Date.parse(e.last_commit||0)||0),progress:e=>-(e.progress??-1),name:e=>e.title.toLowerCase()}[s];
  L.sort((a,b)=>{const x=k(a),y=k(b);return x<y?-1:x>y?1:0});
- $("#count").textContent=L.length+" shown";
+ $("#count").textContent="共 "+L.length+" 条";
  $("#rows").innerHTML=L.slice(0,limit).map(row).join("");
  $("#more").hidden=L.length<=limit;
 }
 fetch("data/games.json").then(r=>r.json()).then(d=>{D=d;
- $("#stats").textContent=`${d.total} projects · ${d.unique_games} games · updated ${d.generated_at.slice(0,10)}`;
+ $("#stats").textContent=`${d.total} 个项目 · ${d.unique_games} 款游戏 · 更新于 ${d.generated_at.slice(0,10)}`;
  const picks=d.games.filter(e=>e.top_pick).sort((a,b)=>a.top_pick-b.top_pick);
- $("#picks").innerHTML=picks.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a></h3><div class="meta"><span class="tag">${esc(tname(e.type))}</span>${esc(e.platform)}${e.stars!=null?" · ⭐ "+fmt(e.stars):""} · <span class="score">${e.score.toFixed(1)}</span>/5</div><div class="desc">${esc(e.note||e.description||"")}</div><div class="lk"><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">project</a>${links(e)}</div></div></div>`).join("");
- const A={instant:"plays instantly",byo:"needs your game files",demo:"free demo, no game files needed"};
+ $("#picks").innerHTML=picks.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a></h3><div class="meta"><span class="tag">${esc(tname(e.type))}</span>${esc(e.platform)}${e.stars!=null?" · ⭐ "+fmt(e.stars):""} · <span class="score">${e.score.toFixed(1)}</span>/5</div><div class="desc">${esc(e.note||e.description||"")}</div><div class="lk"><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">项目主页</a>${links(e)}</div></div></div>`).join("");
+ const A={instant:"打开即玩",byo:"需自备游戏文件",demo:"免费试玩，无需游戏文件"};
  const br=d.games.filter(e=>e.browser_playable).sort((a,b)=>(!!b.screenshot-!!a.screenshot)||b.score-a.score);
  $("#bcount").textContent="("+br.length+")";
- $("#browser").innerHTML=br.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3>${esc(e.title)}</h3><div class="meta">${esc(e.platform)}${A[e.needs_assets]?" · "+A[e.needs_assets]:""}${e.multiplayer?" · multiplayer":""}</div><div class="desc">${esc(e.description||"")}</div><a class="playbtn" href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">▶ Play in browser</a></div></div>`).join("");
+ $("#browser").innerHTML=br.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3>${esc(e.title)}</h3><div class="meta">${esc(e.platform)}${A[e.needs_assets]?" · "+A[e.needs_assets]:""}${e.multiplayer?" · 多人联机":""}</div><div class="desc">${esc(e.description||"")}</div><a class="playbtn" href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">▶ 在浏览器中游玩</a></div></div>`).join("");
  const MD=d.mods||[];$("#mcount").textContent="("+MD.length+")";
- $("#modlist").innerHTML=[...new Set(MD.map(e=>e.mod_group||"Other mods & mashups"))].map(g=>`<h3>${esc(g)}</h3><table><thead><tr><th>Mod</th><th>Runs in</th><th class="hide-m">Brings in</th><th class="n">⭐</th><th class="hide-m">Last commit</th></tr></thead><tbody>`+MD.filter(e=>(e.mod_group||"Other mods & mashups")===g).map(e=>`<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.archived?" 🗄️":""}<small>${esc(e.description||"").slice(0,160)}</small></td><td>${esc(e.host||"")}</td><td class="hide-m">${esc(e.guest||"")}</td><td class="n">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td></tr>`).join("")+`</tbody></table>`).join("");
+ $("#modlist").innerHTML=[...new Set(MD.map(e=>e.mod_group||"其他 mod 与混搭"))].map(g=>`<h3>${esc(g)}</h3><table><thead><tr><th>Mod</th><th>运行于</th><th class="hide-m">引入内容</th><th class="n">⭐</th><th class="hide-m">最近提交</th></tr></thead><tbody>`+MD.filter(e=>(e.mod_group||"其他 mod 与混搭")===g).map(e=>`<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.archived?" 🗄️":""}<small>${esc(e.description||"").slice(0,160)}</small></td><td>${esc(e.host||"")}</td><td class="hide-m">${esc(e.guest||"")}</td><td class="n">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td></tr>`).join("")+`</tbody></table>`).join("");
  const O=d.games.filter(e=>e.inactive).sort((a,b)=>(a.type<b.type?-1:a.type>b.type?1:0)||b.score-a.score);
- $("#ocount").textContent="("+O.length+")";$("#onote").textContent=`Archived, or no commits since ${d.inactive_cutoff} (2 years). Browser-playable games and hand-picked top picks stay above, marked 🕰️.`;
+ $("#ocount").textContent="("+O.length+")";$("#onote").textContent=`已归档，或自 ${d.inactive_cutoff}（两年前）起无提交。可在浏览器游玩的作品与人工挑选的热门推荐会留在上方，并标注 🕰️。`;
  $("#orows").innerHTML=O.map(row).join("");
- $("#tabs").innerHTML=`<button class="on" data-t="">All (${d.active})</button>`+Object.keys(d.topics).filter(t=>d.counts[t]).map(t=>`<button data-t="${t}">${esc(d.topics[t].name)} (${d.counts[t]})</button>`).join("");
+ $("#tabs").innerHTML=`<button class="on" data-t="">全部 (${d.active})</button>`+Object.keys(d.topics).filter(t=>d.counts[t]).map(t=>`<button data-t="${t}">${esc(d.topics[t].name)} (${d.counts[t]})</button>`).join("");
  $("#tabs").onclick=ev=>{const b=ev.target.closest("button");if(!b)return;topic=b.dataset.t;limit=150;document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));render()};
  const plats=[...new Set(d.games.map(e=>e.platform).filter(Boolean))].sort();
  $("#plat").innerHTML+=plats.map(p=>`<option>${esc(p)}</option>`).join("");
  ["#q","#plat","#sort","#playable"].forEach(s=>$(s).addEventListener("input",()=>{limit=150;render()}));
  $("#more").onclick=()=>{limit+=300;render()};render();
-}).catch(err=>{$("#stats").textContent="Failed to load data/games.json: "+err});
+}).catch(err=>{$("#stats").textContent="加载 data/games.json 失败："+err});
 </script>
 </body>
 </html>

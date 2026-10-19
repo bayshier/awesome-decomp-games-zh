@@ -9,16 +9,16 @@ def load(p, default):
     except FileNotFoundError: return default
 
 TOPICS = {
- "static-recomp":  ("Static recompilations", "Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp, ReXGlue, ps1/ps2 recomp, ...)."),
- "source-port":    ("Source ports", "Native PC/handheld ports built on top of a decompilation or released source code."),
- "engine-remake":  ("Engine remakes & reimplementations", "Clean-room or reverse-engineered reimplementations of a game's engine; usually need the original assets."),
- "browser-port":   ("Browser ports", "Games that run in a browser tab (WebAssembly / JS ports)."),
- "decompilation":  ("Decompilations", "Source-code reconstructions (matching or functional) of the original game binary."),
- "disassembly":    ("Disassemblies", "Annotated assembly that rebuilds the original ROM, mostly 8/16-bit games."),
- "tool":           ("Tools & launchers", "Recompilers, launchers and helpers around these projects."),
+ "static-recomp":  ("静态重编译", "把主机/PC 二进制静态重编译为本机代码（N64Recomp、XenonRecomp、ReXGlue、ps1/ps2 recomp 等）。"),
+ "source-port":    ("源代码移植", "基于反编译成果或已公开源代码构建的原生 PC/掌机移植版。"),
+ "engine-remake":  ("引擎重制与重新实现", "对游戏引擎的净室或逆向工程重新实现；通常需要原版游戏资源。"),
+ "browser-port":   ("浏览器移植", "可在浏览器标签页中运行的游戏（WebAssembly / JS 移植）。"),
+ "decompilation":  ("反编译", "对原版游戏二进制的源代码重建（matching 或 functional 级别）。"),
+ "disassembly":    ("反汇编", "带注释的汇编代码，可重建原始 ROM，多为 8/16 位游戏。"),
+ "tool":           ("工具与启动器", "围绕这些项目的重编译器、启动器和辅助工具。"),
 }
 ORDER = list(TOPICS)
-MOD_GROUPS = ["libsm64 / SM64 decomp", "Doom ports", "Rust rewrites", "Other mods & mashups"]
+MOD_GROUPS = ["libsm64 / SM64 反编译", "Doom 移植", "Rust 重写", "其他 mod 与混搭"]
 
 PLAT_GUESS = [(r"\bn64\b|nintendo ?64|majora|ocarina", "N64"), (r"gamecube|\bgcn?\b|dolphin", "GameCube"),
  (r"\bwii ?u\b", "Wii U"), (r"\bwii\b", "Wii"), (r"\b3ds\b", "3DS"), (r"\bnds\b|nintendo ds", "DS"), (r"\bgba\b", "GBA"),

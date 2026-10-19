@@ -306,6 +306,78 @@
   },
   "https://www.netquake.io": {
    "needs_assets": "demo"
+  },
+  "https://github.com/deltarooo/er-mario": {
+   "description": "用《超级马力欧 64》的马力欧玩《艾尔登法环》（libsm64 + me3），开发中",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/Retro64Mod/Retro64Mod": {
+   "description": "Retro64 mod 的《我的世界》一侧",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/ckosmic/g64": {
+   "description": "用 libsm64 把马力欧塞进《盖瑞模组》的插件",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/headshot2017/sm64-san-andreas": {
+   "description": "《圣安地列斯》里的《超级马力欧 64》",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/KodyJKing/smc64": {
+   "description": "《光环：战斗进化》（Steam MCC 版）的 LibSM64 mod",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/headshot2017/gzdoom-sm64": {
+   "description": "GZDoom 里的 SM64 马力欧",
+   "mod_group": "libsm64 / SM64 反编译"
+  },
+  "https://github.com/kgsws/doom-in-doom": {
+   "description": "在《毁灭战士 2》里实现代码执行，再跑一个《毁灭战士》移植版。",
+   "mod_group": "Doom 移植"
+  },
+  "https://github.com/Squaresweets/UltrakillDoom": {
+   "description": "跑在 ULTRAKILL 终端机里的《毁灭战士》",
+   "mod_group": "Doom 移植"
+  },
+  "https://github.com/chasmlol/2010-rust-rewrite-mashup": {
+   "description": "把《现代战争 2》《Skate 3》和《我的世界》装进一个 Rust 游戏：基于 IW4L 的 MW2 重写版，带 Skate 3 模式和真实的《我的世界》世界地图",
+   "mod_group": "Rust 重写"
+  },
+  "https://github.com/the-schwilliam/SkateGM": {
+   "description": "《盖瑞模组》里的《Skate 3》",
+   "mod_group": "Rust 重写"
+  },
+  "https://github.com/chasmlol/SkyCraft": {
+   "description": "以《我的世界》玩家的方式玩《天际》：在天际世界里实现《我的世界》的物理、物品栏、方块与战斗（SKSE 插件 + Fabric mod）。",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/delta2force/MCVmComputers": {
+   "description": "从环绕《我的世界》世界运行的卫星上订购电脑配件，组装出真正能开机的电脑！",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/alskea/hytale2mc": {
+   "description": "为《Hytale》和《我的世界》编写跨平台小游戏的框架",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/Atmerek/CrossplayProject": {
+   "description": "该跨端联机项目中《我的世界》与 Roblox 两侧的源代码。",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/EdwardBelt/HyCraft": {
+   "description": "让《我的世界》1.21.11 玩家加入你的 Hytale 服务器！",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/chasem-dev/sms-switch": {
+   "description": "《阳光马力欧》PC 移植版的 Switch 自制软件（libnx NRO，经 Mesa 的 OpenGL）",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/VistaLargaGames/WWF-No-Mercy-Quest-3-Standalone-": {
+   "description": "WWF No Mercy N64 Recomp 的独立移植版，可在 Meta Quest 3 上原生运行。",
+   "mod_group": "其他 mod 与混搭"
+  },
+  "https://github.com/tgacquin/mm3d-dekui": {
+   "description": "为《姆吉拉的假面 3D》提供单屏显示与帧插值",
+   "mod_group": "模拟器 mod"
   }
  },
  "browser_verified": {

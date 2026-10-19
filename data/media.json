@@ -1,7 +1,7 @@
 {
  "https://github.com/HarbourMasters/Shipwright": {
   "top_pick": 1,
-  "note": "The definitive way to play Ocarina of Time on PC, Switch, Wii U and Android: 60fps, widescreen, randomizer, mods. Bring your own ROM.",
+  "note": "在 PC、Switch、Wii U 和 Android 上体验《时之笛》的终极方式：60 帧、宽屏、随机化、mod。需自备 ROM。",
   "screenshot": "screenshots/harbourmasters-shipwright.jpg",
   "screenshot_score": 4,
   "screenshot_source": "https://i.ytimg.com/vi/u-EhRErOpHE/maxresdefault.jpg",
@@ -16,7 +16,7 @@
  },
  "https://github.com/Zelda64Recomp/Zelda64Recomp": {
   "top_pick": 2,
-  "note": "N64: Recompiled port of Majora's Mask with ultrawide, high framerate, gyro and a mod loader. Needs your US ROM.",
+  "note": "《姆吉拉的假面》N64: Recompiled 移植版，支持超宽屏、高帧率、陀螺仪和 mod 加载器。需美版 ROM。",
   "screenshot": "screenshots/zelda64recomp-zelda64recomp.jpg",
   "screenshot_score": 3,
   "screenshot_source": "https://i.ytimg.com/vi/GIp7C2ro2T8/maxresdefault.jpg",
@@ -31,7 +31,7 @@
  },
  "https://github.com/hedge-dev/UnleashedRecomp": {
   "top_pick": 3,
-  "note": "XenonRecomp port of the Xbox 360 Sonic Unleashed: high framerate, ultrawide, mod support. Needs your own dump.",
+  "note": "Xbox 360 版《索尼克 释放》的 XenonRecomp 移植：高帧率、超宽屏、支持 mod。需自备游戏 dump。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=yDlVr1Jv-WU",
   "screenshot": "screenshots/hedge-dev-unleashedrecomp.jpg",
@@ -46,7 +46,7 @@
  },
  "https://github.com/coop-deluxe/sm64coopdx": {
   "top_pick": 4,
-  "note": "Super Mario 64 PC port with online co-op for up to 16 players, Lua mods and DynOS. Built from the SM64 decomp.",
+  "note": "《超级马力欧 64》PC 移植版，支持最多 16 人在线合作、Lua mod 和 DynOS。基于 SM64 反编译构建。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=hmqbLyszoYY",
   "screenshot": "screenshots/coop-deluxe-sm64coopdx.jpg",
@@ -61,7 +61,7 @@
  },
  "https://github.com/HarbourMasters/Starship": {
   "top_pick": 5,
-  "note": "Native Star Fox 64 port (from the SF64 decomp) with widescreen, 60fps and enhancements.",
+  "note": "《星际火狐 64》原生移植版（基于 SF64 反编译），带宽屏、60 帧与各类增强。",
   "screenshot": "screenshots/harbourmasters-starship.jpg",
   "screenshot_score": 4,
   "screenshot_source": "https://i.ytimg.com/vi/FZ3o09an9_k/maxresdefault.jpg",
@@ -76,7 +76,7 @@
  },
  "https://github.com/TwilitRealm/dusklight": {
   "top_pick": 6,
-  "note": "PC/mobile port of Twilight Princess built on the zeldaret/tp decompilation, with fixes and enhancements.",
+  "note": "基于 zeldaret/tp 反编译的《黄昏公主》PC/移动端移植，含修复与增强。",
   "screenshot": "screenshots/twilitrealm-dusklight.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_1nEglP.webp",
@@ -91,7 +91,7 @@
  },
  "https://github.com/BanjoRecomp/BanjoRecomp": {
   "top_pick": 7,
-  "note": "N64: Recompiled Banjo-Kazooie for Windows/Linux/Mac with widescreen, high framerate and Thunderstore mods.",
+  "note": "《班卓熊大冒险》N64: Recompiled 版（Windows/Linux/Mac），支持宽屏、高帧率和 Thunderstore mod。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=0906Cz-59eU",
   "screenshot": "screenshots/banjorecomp-banjorecomp.jpg",
@@ -106,7 +106,7 @@
  },
  "https://github.com/HarbourMasters/SpaghettiKart": {
   "top_pick": 8,
-  "note": "Mario Kart 64 PC port from the MK64 decomp: HD, custom tracks, extra players and modding.",
+  "note": "《马力欧卡丁车 64》PC 移植版（来自 MK64 反编译）：HD、自定义赛道、额外玩家与 mod 支持。",
   "screenshot": "screenshots/harbourmasters-spaghettikart.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://i.ytimg.com/vi/EOWOtd8sZTQ/maxresdefault.jpg",
@@ -121,7 +121,7 @@
  },
  "https://github.com/diasurgical/DevilutionX": {
   "top_pick": 9,
-  "note": "Diablo and Hellfire for modern systems (PC, consoles, handhelds), based on the reverse-engineered Devilution source.",
+  "note": "让《暗黑破坏神》与《地狱火》在现代平台（PC、主机、掌机）上运行，基于逆向工程的 Devilution 源码。",
   "screenshot": "screenshots/diasurgical-devilutionx.jpg",
   "screenshot_score": 4,
   "screenshot_source": "https://github.com/user-attachments/assets/ee902926-6382-4ee5-b1c2-7947e8b434e9",
@@ -136,7 +136,7 @@
  },
  "https://github.com/OpenRCT2/OpenRCT2": {
   "top_pick": 10,
-  "note": "Full reimplementation of RollerCoaster Tycoon 2 with multiplayer, higher resolutions and quality-of-life fixes.",
+  "note": "《过山车大亨 2》的完整重新实现，支持多人、更高分辨率与诸多体验优化。",
   "screenshot": "screenshots/openrct2-openrct2.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9",
@@ -151,7 +151,7 @@
  },
  "https://github.com/snesrev/zelda3": {
   "top_pick": 11,
-  "note": "Reverse-engineered C reimplementation of A Link to the Past: widescreen, pixel shaders, MSU-1. Needs the ROM for assets.",
+  "note": "《众神的三角力量》逆向工程 C 语言重实现：宽屏、像素着色器、MSU-1。需 ROM 提供资源。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=xctizwBntag",
   "screenshot": "screenshots/snesrev-zelda3.jpg",
@@ -166,7 +166,7 @@
  },
  "https://github.com/OpenMW/openmw": {
   "top_pick": 12,
-  "note": "Open-source Morrowind engine: better performance, Lua modding, runs on Linux/macOS/Android.",
+  "note": "开源的《晨风》引擎：性能更好、支持 Lua mod，可运行于 Linux/macOS/Android。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=bR-WZ8NOG_k",
   "screenshot": "screenshots/openmw-openmw.jpg",
@@ -181,7 +181,7 @@
  },
  "https://github.com/RSDKModding/Sonic-Mania-Decompilation": {
   "top_pick": 13,
-  "note": "Complete decompilation of Sonic Mania that builds native ports for PC, Switch, Android and more.",
+  "note": "《索尼克 狂欢》的完整反编译，可构建 PC、Switch、Android 等平台的原生移植版。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=CSPhyjHt79Y",
   "screenshot": "screenshots/rsdkmodding-sonic-mania-decompilation.jpg",
@@ -196,7 +196,7 @@
  },
  "https://github.com/OpenTTD/OpenTTD": {
   "top_pick": 14,
-  "note": "The long-running, still active reimplementation of Transport Tycoon Deluxe; free graphics sets mean no original files are needed.",
+  "note": "《运输大亨豪华版》长青且仍活跃的重新实现；自带免费图形集，无需原版文件。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=ZBzRh6lD9J8",
   "screenshot": "screenshots/openttd-openttd.jpg",
@@ -211,7 +211,7 @@
  },
  "https://github.com/sonicnext-dev/MarathonRecomp": {
   "top_pick": 15,
-  "note": "XenonRecomp port of Sonic the Hedgehog (2006), fixing much of its performance and loading.",
+  "note": "《索尼克 06》（2006）的 XenonRecomp 移植，修复了大量性能与加载问题。",
   "video": "https://www.youtube.com/watch?v=kQVbKhjSBmk",
   "checked": true,
   "screenshot": "screenshots/sonicnext-dev-marathonrecomp.jpg",
@@ -226,7 +226,7 @@
  },
  "https://github.com/isledecomp/isle-portable": {
   "top_pick": 16,
-  "note": "Cross-platform LEGO Island built on the full isledecomp decompilation (Windows, Linux, macOS, web, consoles).",
+  "note": "跨平台《乐高岛》，基于 isledecomp 完整反编译（Windows、Linux、macOS、网页、主机）。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=JUNdWnI5BTk",
   "screenshot": "screenshots/isledecomp-isle-portable.jpg",
@@ -241,7 +241,7 @@
  },
  "https://github.com/vcmi/vcmi": {
   "top_pick": 17,
-  "note": "Heroes of Might and Magic III engine rewrite with HD, mods, multiplayer and Android support.",
+  "note": "《魔法门之英雄无敌 III》引擎重写，支持 HD、mod、多人与 Android。",
   "screenshot": "screenshots/vcmi-vcmi.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://raw.githubusercontent.com/vcmi/VCMI.eu/master/static/img/screenshots/1.4.0/Antagarich%20Burning%20Battle.jpg?raw=true",
@@ -256,7 +256,7 @@
  },
  "https://github.com/dethrace-labs/dethrace": {
   "top_pick": 19,
-  "note": "Reverse-engineered Carmageddon that runs natively on modern Windows, Linux and macOS.",
+  "note": "《死亡赛车》逆向工程版，可在现代 Windows、Linux 和 macOS 上原生运行。",
   "screenshot": "screenshots/dethrace-labs-dethrace.jpg",
   "screenshot_score": 3,
   "screenshot_source": "https://i.ytimg.com/vi/MMI45O0RKq0/maxresdefault.jpg",
@@ -271,7 +271,7 @@
  },
  "https://github.com/k4zmu2a/SpaceCadetPinball": {
   "top_pick": 20,
-  "note": "Decompilation of Windows' 3D Pinball Space Cadet, ported to modern platforms.",
+  "note": "Windows 自带的《3D 弹珠台：太空军校生》反编译，已移植到现代平台。",
   "checked": true,
   "video": "https://www.youtube.com/watch?v=smiCSU2sje8",
   "screenshot": "screenshots/k4zmu2a-spacecadetpinball.jpg",
@@ -286,7 +286,7 @@
  },
  "https://github.com/CorsixTH/CorsixTH": {
   "top_pick": 21,
-  "note": "Open reimplementation of Theme Hospital with high resolutions and campaign editor.",
+  "note": "《主题医院》的开源重新实现，支持高分辨率与战役编辑器。",
   "screenshot": "screenshots/corsixth-corsixth.jpg",
   "screenshot_score": 4,
   "screenshot_source": "https://github.com/CorsixTH/CorsixTH/assets/20030128/71a42d5f-d486-4309-ba85-77e114880bcb",
@@ -301,7 +301,7 @@
  },
  "https://github.com/bvschaik/julius": {
   "top_pick": 22,
-  "note": "Faithful reimplementation of Caesar III that fixes bugs and runs on modern systems; Augustus adds gameplay changes.",
+  "note": "《凯撒大帝 III》的高保真重新实现，修复 bug 并适配现代系统；Augustus 则在此基础上改动玩法。",
   "screenshot": "screenshots/bvschaik-julius.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png",
@@ -316,7 +316,7 @@
  },
  "https://q3js.com": {
   "top_pick": 23,
-  "note": "Quake III Arena in the browser (WebAssembly ioquake3): click and play instantly, demo data included.",
+  "note": "浏览器中的《雷神之锤 III 竞技场》（WebAssembly 版 ioquake3）：点开即玩，自带试玩数据。",
   "screenshot": "screenshots/quake-iii-arena.jpg",
   "screenshot_score": 5,
   "screenshot_source": "https://recompiledgames.com/img/games/quake-iii-arena-recompiled.jpg",
