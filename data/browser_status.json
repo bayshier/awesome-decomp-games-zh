@@ -3,7 +3,7 @@
   "ok": true,
   "title": "bunnyhop.lol · Counter-Strike: Source bunnyhop in your browser",
   "reason": null,
-  "checked": "2026-10-16T08:24:38Z"
+  "checked": "2026-10-20T08:46:29Z"
  },
  "https://cheese-cube.pages.dev": {
   "ok": false,
@@ -15,13 +15,13 @@
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-16T08:24:45Z"
+  "checked": "2026-10-20T08:46:37Z"
  },
  "https://csjs.live": {
   "ok": true,
   "title": "Play Counter-Strike 1.6 in Your Browser | CSJS",
   "reason": null,
-  "checked": "2026-10-16T08:25:01Z"
+  "checked": "2026-10-20T08:46:52Z"
  },
  "https://ctr.cmzi.uk/": {
   "ok": true,
@@ -39,19 +39,19 @@
   "ok": true,
   "title": "GeneralsX — a decompilation running in your browser — wasm.ltd",
   "reason": null,
-  "checked": "2026-10-16T08:25:23Z"
+  "checked": "2026-10-20T08:47:14Z"
  },
  "https://hcemobile.com/": {
   "ok": true,
   "title": "HCEMobile - Halo: Combat Evolved Mobile",
   "reason": null,
-  "checked": "2026-10-16T08:26:06Z"
+  "checked": "2026-10-20T08:47:46Z"
  },
  "https://jk.q3js.com": {
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-16T08:26:21Z"
+  "checked": "2026-10-20T08:48:01Z"
  },
  "https://johnimril.github.io/diablo_web/": {
   "ok": true,
@@ -63,7 +63,7 @@
   "ok": true,
   "title": "GTA: Vice City — WASM Port",
   "reason": null,
-  "checked": "2026-10-16T08:26:28Z"
+  "checked": "2026-10-20T08:48:09Z"
  },
  "https://kino-der-toten.pages.dev": {
   "ok": false,
@@ -73,9 +73,9 @@
  },
  "https://mitchellhynes.com/halo/halo.html": {
   "ok": true,
-  "title": "Halo: Combat Evolved",
+  "title": "Combat Lab",
   "reason": null,
-  "checked": "2026-10-16T08:26:36Z"
+  "checked": "2026-10-20T08:48:16Z"
  },
  "https://moon-zombies.pages.dev": {
   "ok": false,
@@ -87,7 +87,7 @@
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-16T08:26:43Z"
+  "checked": "2026-10-20T08:48:23Z"
  },
  "https://ovz-game-production.up.railway.app": {
   "ok": true,
@@ -129,13 +129,13 @@
   "ok": true,
   "title": "Play Quake III Online - q3.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-16T08:26:51Z"
+  "checked": "2026-10-20T08:48:31Z"
  },
  "https://q3js.com/": {
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-16T08:26:58Z"
+  "checked": "2026-10-20T08:48:38Z"
  },
  "https://re-rac.github.io/": {
   "ok": true,
@@ -165,7 +165,7 @@
   "ok": true,
   "title": "WebSockets Wasm Doom",
   "reason": null,
-  "checked": "2026-10-16T08:27:13Z"
+  "checked": "2026-10-20T08:48:54Z"
  },
  "https://skate.aaddpp.lol": {
   "ok": true,
@@ -207,7 +207,7 @@
   "ok": true,
   "title": "WAD Commander v2.0 · Launching November 2, 2026",
   "reason": null,
-  "checked": "2026-10-16T08:27:57Z"
+  "checked": "2026-10-20T08:49:31Z"
  },
  "https://wasmarcade.com/": {
   "ok": true,
@@ -219,7 +219,7 @@
   "ok": true,
   "title": "NetQuake.io — Quake in Your Browser",
   "reason": null,
-  "checked": "2026-10-16T08:28:29Z"
+  "checked": "2026-10-20T08:50:03Z"
  },
  "https://wz2100.net/news/warzone-2100-web-edition/": {
   "ok": true,
@@ -237,61 +237,61 @@
   "ok": true,
   "title": "Diablo Web - Original Diablo in Your Browser",
   "reason": null,
-  "checked": "2026-10-16T08:22:57Z"
+  "checked": "2026-10-20T08:44:58Z"
  },
  "http://pes6.optijuegos.net": {
   "ok": true,
   "title": "PES 6 Web Online Port",
   "reason": null,
-  "checked": "2026-10-16T08:23:12Z"
+  "checked": "2026-10-20T08:45:13Z"
  },
  "http://pixelsuft.github.io/hl/": {
   "ok": true,
   "title": "Pixelsuft hl",
   "reason": null,
-  "checked": "2026-10-16T08:23:20Z"
+  "checked": "2026-10-20T08:45:20Z"
  },
  "http://q1.pieter.com": {
   "ok": true,
   "title": "Play QuakeWorld Multiplayer Online - q1.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-16T08:23:28Z"
+  "checked": "2026-10-20T08:45:28Z"
  },
  "http://q2.pieter.com": {
   "ok": true,
   "title": "Play Quake II Multiplayer Online - q2.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-16T08:23:35Z"
+  "checked": "2026-10-20T08:45:36Z"
  },
  "http://rtcw.pieter.com": {
   "ok": true,
   "title": "Play Return to Castle Wolfenstein Multiplayer Online - rtcw.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-16T08:23:43Z"
+  "checked": "2026-10-20T08:45:44Z"
  },
  "http://shar-wasm.cjoseph.workers.dev/?skipmovie": {
   "ok": true,
   "title": "The Simpsons: Hit & Run - WASM",
   "reason": null,
-  "checked": "2026-10-16T08:23:51Z"
+  "checked": "2026-10-20T08:45:51Z"
  },
  "http://skate.aaddpp.lol": {
   "ok": true,
   "title": "skate. 3 — Fan Game",
   "reason": null,
-  "checked": "2026-10-16T08:23:58Z"
+  "checked": "2026-10-20T08:45:58Z"
  },
  "http://surfd.net": {
   "ok": true,
   "title": "Surfd — Classic surf",
   "reason": null,
-  "checked": "2026-10-16T08:24:06Z"
+  "checked": "2026-10-20T08:46:06Z"
  },
  "http://ut.pieter.com": {
   "ok": true,
   "title": "Play Urban Terror Multiplayer Online - ut.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-16T08:24:14Z"
+  "checked": "2026-10-20T08:46:14Z"
  },
  "http://vel.gg/bo1z": {
   "ok": true,
@@ -303,7 +303,7 @@
   "ok": true,
   "title": "WebXash",
   "reason": null,
-  "checked": "2026-10-16T08:24:29Z"
+  "checked": "2026-10-20T08:46:21Z"
  },
  "http://xproger.info/projects/OpenLara/": {
   "ok": true,
@@ -315,7 +315,7 @@
   "ok": true,
   "title": "Crash Bash Online Multiplayer With Friends | PS1 Game",
   "reason": null,
-  "checked": "2026-10-16T08:24:53Z"
+  "checked": "2026-10-20T08:46:44Z"
  },
  "https://fortniteog.lol/": {
   "ok": true,
@@ -333,43 +333,43 @@
   "ok": true,
   "title": "LEGO® Island",
   "reason": null,
-  "checked": "2026-10-16T08:26:14Z"
+  "checked": "2026-10-20T08:47:54Z"
  },
  "https://runescapeclassic.gold/": {
   "ok": true,
   "title": "RuneScape Classic — Play Free in Your Browser",
   "reason": null,
-  "checked": "2026-10-16T08:27:06Z"
+  "checked": "2026-10-20T08:48:46Z"
  },
  "https://smz.fun/": {
   "ok": true,
   "title": "Super Mario Zombies",
   "reason": null,
-  "checked": "2026-10-16T08:27:21Z"
+  "checked": "2026-10-20T08:49:01Z"
  },
  "https://wasmarcade.com/gta3": {
   "ok": true,
   "title": "Play GTA III in Your Browser | WASM Arcade",
   "reason": null,
-  "checked": "2026-10-16T08:28:05Z"
+  "checked": "2026-10-20T08:49:39Z"
  },
  "https://wasmarcade.com/minecraft": {
   "ok": true,
   "title": "Play Minecraft 1.8.8 in Your Browser | WASM Arcade",
   "reason": null,
-  "checked": "2026-10-16T08:28:12Z"
+  "checked": "2026-10-20T08:49:46Z"
  },
  "https://web.archive.org/web/20261006055917/https://playgta5.com/": {
   "ok": true,
   "title": "Wayback Machine",
   "reason": null,
-  "checked": "2026-10-16T08:28:21Z"
+  "checked": "2026-10-20T08:49:55Z"
  },
  "https://zombies.bitcoinsapi.com/": {
   "ok": true,
-  "title": "Nacht der Untoten · Browser edition",
+  "title": "Zombies · Browser edition",
   "reason": null,
-  "checked": "2026-10-16T08:28:45Z"
+  "checked": "2026-10-20T08:50:24Z"
  },
  "http://cheese-cube.pages.dev": {
   "ok": true,
@@ -393,48 +393,48 @@
   "ok": true,
   "title": "Claude of Duty: Vibe Slops II",
   "reason": null,
-  "checked": "2026-10-16T08:25:16Z"
+  "checked": "2026-10-20T08:47:07Z"
  },
  "https://goofyahhbro69420.github.io/Black-Ops-2/": {
   "ok": true,
   "title": "Claude of Duty: Vibe Slops II",
   "reason": null,
-  "checked": "2026-10-16T08:25:31Z"
+  "checked": "2026-10-20T08:47:22Z"
  },
  "https://goofyahhbro69420.github.io/COD-ZOMBIES/": {
   "ok": true,
   "title": "Kino der Toten — Zombies",
   "reason": null,
-  "checked": "2026-10-16T08:25:55Z"
+  "checked": "2026-10-20T08:47:37Z"
  },
  "https://theeagler1234-alt.github.io/kino-der-toten/": {
   "ok": true,
   "title": "Kino der Toten — Zombies",
   "reason": null,
-  "checked": "2026-10-16T08:27:41Z"
+  "checked": "2026-10-20T08:49:16Z"
  },
  "https://z2rs.com/": {
   "ok": true,
   "title": "z2rs — Zelda II reconstruction (web)",
   "reason": null,
-  "checked": "2026-10-16T08:28:37Z"
+  "checked": "2026-10-20T08:50:10Z"
  },
  "http://ovz-game-production.up.railway.app": {
   "ok": true,
-  "title": "OVZ: Global Flashpoint",
+  "title": "Open Victor Zulu",
   "reason": null,
-  "checked": "2026-10-16T08:23:05Z"
+  "checked": "2026-10-20T08:45:05Z"
  },
  "https://vel.gg/bo1z/moon": {
   "ok": true,
-  "title": "Moon",
+  "title": "",
   "reason": null,
-  "checked": "2026-10-16T08:27:49Z"
+  "checked": "2026-10-20T08:49:24Z"
  },
  "https://d07riv.github.io/diabloweb/": {
   "ok": true,
   "title": "DIABLO",
   "reason": null,
-  "checked": "2026-10-16T08:25:08Z"
+  "checked": "2026-10-20T08:46:59Z"
  }
 }
