@@ -1088,5 +1088,104 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://vel.gg/bsz": {
+  "screenshot": "screenshots/browser-call-of-duty-black-ops-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://wasm.rip/files/cuphead/index.html": {
+  "screenshot": "screenshots/browser-cuphead.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/cuphead-recompiled.jpg",
+  "screenshot_size": [
+   441,
+   315
+  ],
+  "screenshot_score": 2
+ },
+ "https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5": {
+  "screenshot": "screenshots/browser-cyberpunk-2077.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/cyberpunk-2077-recompiled.jpg",
+  "screenshot_size": [
+   1200,
+   857
+  ],
+  "screenshot_score": 5
+ },
+ "https://f12006.online": {
+  "screenshot": "screenshots/browser-formula-one-06.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/f1-06-recompiled.jpg",
+  "screenshot_size": [
+   1008,
+   720
+  ],
+  "screenshot_score": 4
+ },
+ "https://zombies.concentric.live": {
+  "screenshot": "screenshots/browser-nacht-der-untoten.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/nacht-der-untoten-card.jpg",
+  "screenshot_size": [
+   1200,
+   600
+  ],
+  "screenshot_score": 5
+ },
+ "https://nba2k12.online": {
+  "screenshot": "screenshots/browser-nba-2k12.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/nba-2k12-recompiled.jpg",
+  "screenshot_size": [
+   588,
+   420
+  ],
+  "screenshot_score": 3
+ },
+ "https://nfsmwonline.com": {
+  "screenshot": "screenshots/browser-need-for-speed-most-wanted.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/need-for-speed-most-wanted-recompiled.jpg",
+  "screenshot_size": [
+   1008,
+   720
+  ],
+  "screenshot_score": 4
+ },
+ "https://ssx3.online": {
+  "screenshot": "screenshots/browser-ssx-3.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/ssx-3-recompiled.jpg",
+  "screenshot_size": [
+   500,
+   357
+  ],
+  "screenshot_score": 3
+ },
+ "https://tekken5.online": {
+  "screenshot": "screenshots/browser-tekken-5.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/tekken-5-recompiled.jpg",
+  "screenshot_size": [
+   399,
+   285
+  ],
+  "screenshot_score": 2
+ },
+ "https://playterraria.lol": {
+  "screenshot": "screenshots/browser-terraria.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/terraria-recompiled.jpg",
+  "screenshot_size": [
+   987,
+   705
+  ],
+  "screenshot_score": 4
+ },
+ "https://smackdownvsraw.online": {
+  "screenshot": "screenshots/browser-wwe-smackdown-vs-raw.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/wwe-smackdown-vs-raw-recompiled.jpg",
+  "screenshot_size": [
+   386,
+   276
+  ],
+  "screenshot_score": 2
  }
 }
